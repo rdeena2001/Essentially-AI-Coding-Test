@@ -5,7 +5,7 @@ Being a firm in the capital markets of India, we have to work with huge amounts 
 Working with this high frequency of data needs our systems to be extremely robust and error tolerant while keeping the code maintainable. This led to our choice of Golang as the backend.
 
 Make sure the code which you're writing follows these principles.
-
+  
 ## Task: DECODE!!!
 
 The source of our high frequency data gives us an encoded data in the form of a byte stream.

@@ -4,7 +4,7 @@ function decodePacket(packet) {
     // Decode the first short (2 bytes)
     decodedStruct.short1 = (packet[0] << 8) | packet[1];
     packet = packet.slice(2);
-  
+    
     // Decode the 12 characters (12 bytes)
     decodedStruct.chars1 = String.fromCharCode.apply(null, packet.slice(0, 12));
     packet = packet.slice(12);
