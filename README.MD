@@ -1,5 +1,5 @@
 # Backend Task | GOLANG | Essentially AI
-
+ 
 Being a firm in the capital markets of India, we have to work with huge amounts of data. You can think of a data packet flowing into the system every nanosecond.
 
 Working with this high frequency of data needs our systems to be extremely robust and error tolerant while keeping the code maintainable. This led to our choice of Golang as the backend.

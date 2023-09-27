@@ -1,6 +1,6 @@
 function decodePacket(packet) {
     const decodedStruct = {};
-  
+   
     // Decode the first short (2 bytes)
     decodedStruct.short1 = (packet[0] << 8) | packet[1];
     packet = packet.slice(2);
